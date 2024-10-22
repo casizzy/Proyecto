@@ -23,6 +23,12 @@ header {
     border: none;
 }
 
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .services-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -34,8 +40,11 @@ header {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
+    width: 500px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
 }
 
 .service-card img {
@@ -43,6 +52,11 @@ header {
     height: auto;
     border-radius: 10px;
     object-fit: cover;
+}
+
+
+.service-card:hover {
+    transform: scale(1.05);
 }
 
 .service-info {
@@ -62,7 +76,7 @@ header {
 }
 .service-address {
     grid-area: address;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #666;
 }
 .rating {
