@@ -1,0 +1,46 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #E5F8FF;
+}
+
+
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 50px;
+}
+
+form {
+    background: linear-gradient(to left, #00c4d7, #007bff);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #11cefd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #E5F8FF;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+
+.account-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.option-card {
+    background: linear-gradient(to left, #00c4d7, #007bff);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 380px;
+}
+
+.contenedor-txt {
+    background-color: white;
+    margin: 40px;
+}
+
+.option-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.option-card p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.option-card span {
+    color: #666;
+    font-size: 0.9rem;
+}

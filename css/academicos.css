@@ -1,0 +1,81 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #E5F8FF;
+    overflow-y: scroll;
+}
+
+.logo img {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #00c4d7;
+}
+
+.search-bar {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.service-info {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+        "name rating"
+        "name rating"
+        "address location";
+    gap: 11px;
+}
+.service-name {
+    font-size: 1.5rem;
+    grid-area: name;
+    font-weight: bold;
+}
+.service-address {
+    grid-area: address;
+    font-size: 1.5rem;
+    color: #666;
+}
+.rating {
+    color: gold;
+    font-size: 1.9rem;
+    grid-area: rating;
+}
+.location {
+    grid-area: location;
+    justify-self: end;
+}
+.location img {
+    width: 70px;
+}
+
+
